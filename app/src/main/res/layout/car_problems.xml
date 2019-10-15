@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".car_problems"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/Car_problems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <RadioButton
+            android:id="@+id/Wheels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="How to Remove and Replace wheel ? "
+            />
+
+        <RadioButton
+            android:id="@+id/battery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to install new battery ? "
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/bumper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Remove Bumper ? "
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:id="@+id/Oil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to change engine Oil ? "
+            android:textSize="20sp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Car_start"
+        android:textSize="30sp"
+        android:padding="20dp"
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+</LinearLayout>

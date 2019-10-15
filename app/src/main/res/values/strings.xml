@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My_GLR</string>
+    <string name="start">Start</string>
+    <string name="click_on_screen_button_to_detect_your_object_it_will_be_easy_to_identify_particular_object"><![CDATA[--> Click on screen button to detect your Object,it will be easy to identify particular object]]></string>
+    <string name="it_will_displays_some_sample_detects_problems_on_your_object_state_that_problem_and_click_on_start_button_to_proceed"><![CDATA[--> It will displays some sample detects /problems on your object,state that problem and click on start Button to proceed]]></string>
+    <string name="scan">Scan</string>
+</resources>

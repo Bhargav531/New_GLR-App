@@ -1,0 +1,4 @@
+#Sat Oct 05 14:25:13 IST 2019
+base.0=/Users/sreenivask/AndroidStudioProjects/My_GLR/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

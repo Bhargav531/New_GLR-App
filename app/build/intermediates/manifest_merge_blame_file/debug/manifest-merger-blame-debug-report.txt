@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.steveBrains.my_glr"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:8:5-31:19
+15        android:allowBackup="true"
+15-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] /Users/sreenivask/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:13:9-35
+22        android:theme="@style/AppTheme" >
+22-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:14:9-40
+23        <activity android:name="com.steveBrains.my_glr.battery_steps" />
+23-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:15:9-60
+23-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:15:19-48
+24        <activity android:name="com.steveBrains.my_glr.Wheels_steps" />
+24-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:16:9-50
+24-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:16:19-47
+25        <activity android:name="com.steveBrains.my_glr.priter_problems" />
+25-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:17:9-53
+25-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:17:19-50
+26        <activity android:name="com.steveBrains.my_glr.mobile_problems" />
+26-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:18:9-53
+26-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:18:19-50
+27        <activity android:name="com.steveBrains.my_glr.bike_problems" />
+27-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:19:9-51
+27-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:19:19-48
+28        <activity android:name="com.steveBrains.my_glr.car_problems" />
+28-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:20:9-50
+28-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:20:19-47
+29        <activity android:name="com.steveBrains.my_glr.All_objects" />
+29-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:21:9-49
+29-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:21:19-46
+30        <activity android:name="com.steveBrains.my_glr.Scan" />
+30-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:22:9-42
+30-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:22:19-39
+31        <activity android:name="com.steveBrains.my_glr.Instactions" />
+31-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:23:9-49
+31-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:23:19-46
+32        <activity android:name="com.steveBrains.my_glr.MainActivity" >
+32-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:24:9-30:20
+32-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:24:19-47
+33            <intent-filter>
+33-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:26:17-69
+34-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:28:17-77
+36-->/Users/sreenivask/AndroidStudioProjects/My_GLR/app/src/main/AndroidManifest.xml:28:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

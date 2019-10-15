@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Instactions">
+
+    <ScrollView
+        android:id="@+id/qw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="left"
+
+                android:text="--> This application will provides all the guidelines to Repair your own things / Appliances"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="left"
+
+                android:text="@string/click_on_screen_button_to_detect_your_object_it_will_be_easy_to_identify_particular_object"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+
+                android:text="@string/it_will_displays_some_sample_detects_problems_on_your_object_state_that_problem_and_click_on_start_button_to_proceed"
+                android:textSize="20sp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/chkWindows"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Read all the Instructions"
+                android:textSize="25sp"/>
+            <Button
+                android:id="@+id/startbtn"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center_horizontal"
+
+                android:gravity="center"
+                android:text="@string/start"
+                android:textSize="30sp">
+
+            </Button>
+
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
